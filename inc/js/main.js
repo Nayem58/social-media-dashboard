@@ -35,5 +35,5 @@ $(document).ready(function () {
   });
 
   // count-up
-  $('.counter').counterUp();
+  $('.count').counterUp();
 });
