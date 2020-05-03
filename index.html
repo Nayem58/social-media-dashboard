@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="inc/css/bootstrap-4.4.1.css" type="text/css" />
+    <link rel="stylesheet" href="inc/css/style.css" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="inc/js/jquery-3.5.js"></script>
+
+    <title>
+      Frontend Mentor | Social Media Dashboard with Theme Switcher
+    </title>
+  </head>
+  <body>
+    <div class="total-followers">
+      <div class="container">
+        <!-- heading start -->
+        <div class="heading">
+          <div class="heading-txt">
+            <h1>Social Media Dashboard</h1>
+            <p class="mb-0">Total Followers: 23004</p>
+          </div>
+          <div class="toggle-div">
+            <label class="switch mb-0">
+              <span class="theme-mode"></span>
+              <div class="input-div">
+                <input type="checkbox" class="toggle-theme" />
+                <span class="slider"></span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <!-- heading end -->
+
+        <!-- div-social-box start -->
+        <div class="div-social-box text-center">
+          <div class="social-box">
+            <div class="icon-and-handler">
+              <img src="images/icon-facebook.svg" alt="Facebook icon" />
+              <a
+                href="https://www.facebook.com/ShadowWalker5885"
+                title="Have a look at Shadow Walker's activities on Facebook"
+                target="_blank"
+                >ShadowWalker5885</a
+              >
+            </div>
+            <div class="followers-number">
+              <p class="amount count">1987</p>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="today">
+              <img src="images/icon-up.svg" alt="up icon" />
+              <span class="lime-green">12 Today</span>
+            </div>
+          </div>
+          <div class="social-box">
+            <div class="icon-and-handler">
+              <img src="images/icon-twitter.svg" alt="Twitte icon" />
+              <a href="https://twitter.com/Nayem5885" title="Send your tweets"
+                >@Nayem5885</a
+              >
+            </div>
+            <div class="followers-number">
+              <p class="amount count">1044</p>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="today">
+              <img src="images/icon-up.svg" alt="up icon" />
+              <span class="lime-green">99 Today</span>
+            </div>
+          </div>
+          <div class="social-box">
+            <div class="icon-and-handler">
+              <img src="images/icon-instagram.svg" alt="Instagram icon" />
+              <a
+                href="https://www.instagram.com/shadowwalker5885/"
+                title="Follow me on Instagram"
+                >shadowwalker5885</a
+              >
+            </div>
+            <div class="followers-number">
+              <p class="amount count">11000</p>
+              <p>FOLLOWERS</p>
+            </div>
+            <div class="today">
+              <img src="images/icon-up.svg" alt="up icon" />
+              <span class="lime-green">1099 Today</span>
+            </div>
+          </div>
+          <div class="social-box">
+            <div class="icon-and-handler">
+              <img src="images/icon-youtube.svg" alt="YouTube icon" />
+              <a
+                href="https://www.youtube.com/channel/UCDcFgbHalt3r9LGb-I8NkqQ?disable_polymer=true"
+                title="Watch my videos on YouTube"
+                >Shadow Walker</a
+              >
+            </div>
+            <div class="followers-number">
+              <p class="amount count">8239</p>
+              <p>SUBSCRIBERS</p>
+            </div>
+            <div class="today">
+              <img src="images/icon-down.svg" alt="up icon" />
+              <span class="bright-red">144 Today</span>
+            </div>
+          </div>
+        </div>
+        <!-- div-social box end -->
+
+        <!-- overview start -->
+        <div class="overview">
+          <h2>Overview - Today</h2>
+          <div class="overview-today">
+            <div class="overview-col">
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Page Views</span>
+                  <img src="images/icon-facebook.svg" alt="Facebook icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">87</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-up.svg" alt="up icon" />
+                    <span class="lime-green">3%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Likes</span>
+                  <img src="images/icon-facebook.svg" alt="Facebook icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">52</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-down.svg" alt="down icon" />
+                    <span class="bright-red">2%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overview-col">
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Retweets</span>
+                  <img src="images/icon-twitter.svg" alt="Twitter icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">117</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-up.svg" alt="up icon" />
+                    <span class="lime-green">33%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Likes</span>
+                  <img src="images/icon-twitter.svg" alt="Twitter icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">507</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-up.svg" alt="up icon" />
+                    <span class="lime-green">53%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overview-col">
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Profile Views</span>
+                  <img src="images/icon-instagram.svg" alt="Instagram icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">5200</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-up.svg" alt="up icon" />
+                    <span class="lime-green">75%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Likes</span>
+                  <img src="images/icon-instagram.svg" alt="Instagram icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">5462</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-up.svg" alt="up icon" />
+                    <span class="lime-green">57%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overview-col">
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Total Views</span>
+                  <img src="images/icon-youtube.svg" alt="YouTube icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">1407</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-down.svg" alt="down icon" />
+                    <span class="bright-red">12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-box">
+                <div class="activities">
+                  <span>Likes</span>
+                  <img src="images/icon-youtube.svg" alt="YouTube icon" />
+                </div>
+                <div class="status">
+                  <div class="number-up-down count">107</div>
+                  <div class="percentage-up-down">
+                    <img src="images/icon-down.svg" alt="down icon" />
+                    <span class="bright-red">19%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- overview end -->
+      </div>
+    </div>
+
+    <!-- additional js files -->
+    <script src="inc/js/bootstrap-4.4.1.js"></script>
+    <script src="inc/js/waypoints.js"></script>
+    <script src="inc/js/counter-up.js"></script>
+    <script src="inc/js/main.js"></script>
+  </body>
+</html>

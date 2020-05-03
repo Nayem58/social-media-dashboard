@@ -1,0 +1,52 @@
+// == variables
+// primary-colors
+$lime-green: hsl(163, 72%, 41%);
+$bright-red: hsl(356, 69%, 56%);
+
+// social-box-border-color
+$facebook: hsl(195, 100%, 50%);
+$twitter: hsl(203, 89%, 53%);
+$instagram: linear-gradient(
+  90deg,
+  rgba(253, 196, 104, 1) 0%,
+  rgba(223, 73, 150, 1) 100%
+);
+$youtube: hsl(348, 97%, 39%);
+
+// toggle-button color
+$dark-toggle-bg: linear-gradient(
+  90deg,
+  rgba(55, 143, 230, 1) 0%,
+  rgba(62, 218, 130, 1) 100%
+);
+$light-toggle-bg: linear-gradient(
+  90deg,
+  rgba(192, 192, 192, 1) 0%,
+  rgba(192, 192, 192, 1) 100%
+);
+$light-toggle-circle: #aeb3cb;
+
+// dark-theme-colors
+$dark-blue-bg: hsl(230, 17%, 14%);
+$dark-blue-top-bg: hsl(232, 19%, 15%);
+$dark-card-bg: hsl(228, 28%, 20%);
+$dark-card-hover-bg: hsl(230, 30%, 25%);
+$blue-text: hsl(228, 34%, 66%);
+$white-text: hsl(0, 0%, 100%);
+
+// light-theme-colors
+$light-blue-bg: hsl(0, 0%, 100%);
+$light-blue-top-bg: hsl(225, 100%, 98%);
+$light-card-bg: hsl(227, 47%, 96%);
+$light-card-hover-bg: hsl(230, 50%, 100%);
+$blue-text: hsl(228, 12%, 44%);
+$white-text: hsl(230, 17%, 14%);
+
+// == functions
+// horizontally & vertically center
+@mixin align-center-justify-between() {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
